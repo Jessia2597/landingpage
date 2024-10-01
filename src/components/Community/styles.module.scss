@@ -1,0 +1,24 @@
+@import '../../styles/abstracts/abstracts';
+
+.commuintyContainer {
+    padding: 2rem;
+
+    .commuintyBody{
+        margin-top: 1.25rem;
+
+        h3{
+            margin: 1.5rem 0 1rem;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+
+            li{
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

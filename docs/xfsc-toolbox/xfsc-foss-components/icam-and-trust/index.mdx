@@ -1,0 +1,70 @@
+---
+sidebar_position: 2
+title: ICAM & Trust over IP
+---
+
+#
+
+## ICAM & Trust over IP Identity, Credential and Access Management
+
+These services empower federated ecosystems, like federations, to authenticate and authorise users and systems in a decentralised, self-sovereign manner, ensuring trust without depending on a central authority. These services utilise credential validation and technology functionalities to maintain a consistent level of trust among all participants in the federation.
+
+- **Authentication/Authorisation(AAS)** <br />
+  Service designed to authenticate users and systems in a decentralised, trustworthy, and self-sovereign manner.
+
+- **Organisation CredentialManager (OCM)** <br/>
+  Digital Self-Sovereign Identity (SSI) wallets for organizations (participants), responsible for managing, issuing, and storing credentials.
+
+- **Personal Credential Manager (PCM)**
+  Digital SSI wallet utilised by individuals, typically in the form of a personal wallet, for managing and storing credentials.
+
+- **Trust Services API (TSA)** <br />
+  Technical implementation ensuring policy enforcement for the decentralised and self-sovereign components within Gaia-X.
+
+- **Notarisation Service (NOT)**
+  Service designed to handle notarisation requests and issue legally-binding, digital, and trustworthy credentials.
+
+- **Trust ManagementInfrastructure (TRAIN)** <br/>
+  Trust Management Infrastructure (TRAIN) supports the establishment and verification of the trust basis (root of trust) for Gaia-X participants and their credentials. It provides a flexible and interoperable infrastructure for managing trust relationships within distributed ecosystems.
+
+### Detailed Information and Links:
+
+export const Box = ({ name, img, href }) => (
+  <a class="box-container" href={href}>
+    <img src={img} />
+    <h3>{name}</h3>
+  </a>
+);
+
+<div class="img-container">
+  <Box
+    name="Authentication/ Authorisation(AAS)"
+    img="/img/icam_1.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/authentication"
+  />
+  <Box
+    name="Organisation CredentialManager (OCM)"
+    img="/img/icam_2.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/organisation-credential"
+  />
+  <Box
+    name="Personal CredentialManager (PCM)"
+    img="/img/icam_3.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/personal-credential"
+  />
+  <Box
+    name="Trust Services API (TSA)"
+    img="/img/icam_4.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/trust-service"
+  />
+  <Box
+    name="Notarisation Service (NOT)"
+    img="/img/icam_5.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/notarisation"
+  />
+  <Box
+    name="Trust Management Infrastructure (TRAIN)"
+    img="/img/trust.png"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust/trust-management"
+  />
+</div>

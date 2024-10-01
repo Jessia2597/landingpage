@@ -1,0 +1,90 @@
+@import '../../styles/abstracts/abstracts';
+
+.communityContainer {
+    background-color: $darkViolet;
+    padding: 6.25rem 1.25rem 6.25rem 4rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    @include respond($tablet) {
+        flex-flow: column;
+        padding: 2rem;
+    }
+
+    @include respond($mobile) {
+        flex-flow: column;
+        padding: 2rem;
+    }
+
+    .textSection {
+        width: 25%;
+
+        @include respond($tablet) {
+            width: 100%;
+        }
+
+        @include respond($mobile) {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 2.813rem;
+            line-height: 3.5rem;
+            color: $whiteColor;
+            font-weight: 300;
+        }
+    }
+
+    .communityListContainer {
+        width: 75%;
+
+        @include respond($tablet) {
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            gap: 1.875rem;
+            padding: 0;
+            margin: 0;
+
+            @include respond($mobile) {
+                flex-flow: column;
+            }
+
+            li {
+                background-color: $whiteColor;
+                list-style-type: none;
+                border-radius: 1.063rem;
+                width: 25%;
+
+                @include respond($mobile) {
+                    width: 100%;
+                }
+
+                a {
+                    padding: 1.563rem 1.875rem;
+                    display: flex;
+                    align-items: center;
+                    flex-flow: column;
+                    gap: 0.625rem;
+                    cursor: pointer;
+
+                    img {
+                        height: 5rem;
+                        width: auto;
+                    }
+
+                    h4 {
+                        font-size: 0.938rem;
+                        line-height: 1.125rem;
+                        font-weight: 400;
+                        color: $darkViolet;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../styles/abstracts/abstracts';
+
+.serviceContainer {
+    padding: 3.563rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+    h2 {
+        font-size: 2.813rem;
+        line-height: 3.438rem;
+        color: $whiteColor;
+        margin: 0 0 4.375rem;
+        font-weight: 300;
+    }
+
+    img {
+        height: 30rem;
+        width: auto;
+        margin-bottom: 3.125rem;
+
+        @include respond($mobile) {
+            height: 25rem;
+        }
+    }
+}

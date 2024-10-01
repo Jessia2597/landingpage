@@ -1,0 +1,101 @@
+@import "../../styles/abstracts/abstracts";
+
+.homeContainer {
+
+  .homeTextcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    gap: 1.25rem;
+    padding: 8rem 0 6rem;
+    max-width: 70%;
+    margin: 0 auto;
+  
+    @include respond($mobile) {
+      max-width: 100%;
+      padding: 8rem 2rem;
+    }
+  
+    h1 {
+      font-size: 4rem;
+      line-height: 4.87rem;
+      font-weight: 600;
+      max-width: 80%;
+      margin: 0 0 3rem;
+  
+      @include respond($miniLaptop) {
+        max-width: 100%;
+      }
+  
+      @include respond($mobile) {
+        max-width: 100%;
+      }
+    }
+  
+    p {
+      font-size: 1.4rem;
+      line-height: 1.5;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+  
+      a {
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .disclaimerSection {
+    width: 100%;
+    background-color: $earthBlue;
+    text-align: center;
+    padding: 8rem 5rem;
+
+    @include respond($mobile) {
+      padding: 2rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+      line-height: 1.5;
+      margin: 0 0 3rem;
+    }
+
+    a{
+      margin: 2rem 0 0;
+      display: inline-block;
+    }
+
+    .gridBox{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:2rem;
+      margin-bottom: 2rem;
+
+      @include respond($mobile) {
+        grid-template-columns: 1fr;
+      }
+
+      div{
+        background-color: #1818ab;
+        text-align: left;
+        border-radius: 1rem;
+        padding: 2rem;
+
+        p {
+          font-size: 1.3rem;
+          line-height: 1.5;
+          margin: 0 0 2rem;
+        }
+    
+        h3 {
+          font-size: 1.6rem;
+          line-height: 1.5;
+        }
+        
+      }
+    }
+  }
+}

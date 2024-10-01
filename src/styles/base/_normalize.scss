@@ -1,0 +1,49 @@
+:root {
+    --ifm-color-primary: #000098;
+    --ifm-color-primary-dark: #000089;
+    --ifm-color-primary-darker: #000081;
+    --ifm-color-primary-darkest: #00006a;
+    --ifm-color-primary-light: #0000a7;
+    --ifm-color-primary-lighter: #0000af;
+    --ifm-color-primary-lightest: #0000c6;
+    --ifm-font-family-base: "Inter", sans-serif;
+}
+
+[data-theme='dark'] {
+    background: linear-gradient(180deg, #000098 0%, rgba(188, 136, 222, 0.372148) 99.96%, rgba(207, 150, 228, 0.31) 99.97%, rgba(217, 217, 217, 0) 99.98%, rgba(140, 101, 204, 0.533333) 99.99%, rgba(217, 217, 217, 0) 100%);
+    background-blend-mode: multiply;
+}
+
+html {
+    @include respond($miniLaptop) {
+        font-size: 11px;
+    }
+
+    @include respond($tablet) {
+        font-size: 11px;
+    }
+
+    @include respond($mobile) {
+        font-size: 10px;
+    }
+}
+
+html,
+body {
+    color: $whiteColor;
+    font-family: $fontFamily;
+}
+
+body{
+    background: linear-gradient(180deg, #000098 0%, rgba(188, 136, 222, 0.372148) 99.96%, rgba(207, 150, 228, 0.31) 99.97%, rgba(217, 217, 217, 0) 99.98%, rgba(140, 101, 204, 0.533333) 99.99%, rgba(217, 217, 217, 0) 100%);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+a {
+    color: $whiteColor;
+
+    &:hover {
+        color: $whiteColor;
+    }
+}

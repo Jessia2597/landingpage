@@ -1,0 +1,61 @@
+@import '../../styles/abstracts/abstracts';
+
+.linksContainer {
+    padding: 2rem;
+
+    .linkBody{
+        margin-top: 1.25rem;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+
+        @include respond($mobile){
+            grid-template-columns: 1fr;
+        }
+
+        .bodyLeftSection{
+            h3{
+                margin: 1.5rem 0 1rem;
+            }
+            ul{
+                li{
+                    a{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .bodyRightSection{
+            .box{
+                border: 1px solid $whiteColor;
+                padding: 1rem;
+                box-shadow: 0 0 3px 0px rgba(255,255,255,0.5);
+
+                h3{
+                    border-bottom: 1px solid;
+                    padding-bottom: 5px;
+                }
+
+                ul{
+                    margin: 0;
+                    padding: 0;
+
+                    li{
+                        list-style-type: none;
+
+                        a{
+                            display: flex;
+                            align-items: center;
+                            gap: 0.3rem;
+                            text-decoration: none;
+
+                            img{
+                                height: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
