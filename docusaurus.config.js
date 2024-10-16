@@ -14,10 +14,10 @@ const config = {
   favicon: "img/xfsc_logo.svg",
 
   // Set the production url of site here
-  url: "http://localhost:3000/",
+  url: "https://eclipse-xfsc.github.io/org.eclipse.xfsc",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "https://eclipse-xfsc.github.io/org.eclipse.xfsc/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
