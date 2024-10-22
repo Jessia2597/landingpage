@@ -64,17 +64,6 @@ Tasks:
 
 See the [Handbook](https://www.eclipse.org/projects/handbook/#roles-pl)
 
-### Automotive Project Management Committee (PMC)​
-
-The Automotive Project Management Committee (PMC) is responsible for the operation of [the Automotive Top Level Project](https://projects.eclipse.org/projects/automotive). Top level projects are at the top of the open source project hierarchy. More information can be found on the [website](https://eclipse.dev/automotive/).
-
-The PMC consists of experienced committers who are appointed by the EMO or elected by the [PMC members](https://projects.eclipse.org/projects/automotive/who).
-
-Tasks:
-
-- The PMC reviews and approves (or vetos) committer and project lead elections, first validating that candidates have demonstrated sufficient merit.
-- The PMC is tasked with approving progress, release, and graduation reviews.
-- The PMC supports the Eclipse IP Team with knowledge and experience with their community and technology .
 
 Contact the PMC:
 
