@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Code Review
 ---
 
-- Do all reviews and PRs in XFSC repositories, if this is done on fork, there is a leak in openess and transparency. (https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#create-a-fork) ??  
+- Do all reviews and PRs in XFSC repositories, if this is done on fork, there is a leak in openess and transparency. (https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#create-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)?  
 - Write meaningful and descriptive commit messages, look for example [here](https://cbea.ms/git-commit/), [here](https://medium.com/better-programming/your-git-commit-history-should-read-like-a-history-book-heres-how-7f44d5df1801) or here for [conventional committs](https://www.conventionalcommits.org/en/v1.0.0/). 
 - Avoid references to closed systems, as this is not tracable for newcomers.
 
