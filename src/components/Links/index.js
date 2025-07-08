@@ -33,11 +33,11 @@ const LinksComp = () => {
               <li>
                 Eclipse GitLab Repository :{" "}
                 <a
-                  href="https://gitlab.eclipse.org/eclipse/xfsc"
+                  href="https://github.com/eclipse-xfsc"
                   target="_blank"
                 >
                   {" "}
-                  https://gitlab.eclipse.org/eclipse/xfsc
+                  https://github.com/eclipse-xfsc
                 </a>
               </li>
               <li>
@@ -144,7 +144,7 @@ const LinksComp = () => {
                 </li>
                 <li>
                   <a
-                    href="https://gitlab.eclipse.org/eclipse/xfsc"
+                    href="https://github.com/eclipse-xfsc"
                     target="_blank"
                   >
                     <img src={repoIcon} />
