@@ -97,8 +97,8 @@ const config = {
           //   to: "/faq",
           // },
           {
-            href: "https://gitlab.eclipse.org/eclipse/xfsc/",
-            label: "XFSC GitLab",
+            href: "https://github.com/eclipse-xfsc",
+            label: "XFSC GitHub",
             position: "right",
           },
         ],
