@@ -1,0 +1,23 @@
+.boxContainer {
+  display: inline-block;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: inherit;
+  background: #f9f9f9;
+}
+
+.boxContainer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.boxContainer:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
