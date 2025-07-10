@@ -11,10 +11,8 @@
 }
 
 .boxContainer {
-//   flex: 1 1 280px; // Each box takes up to 280px width
-//   max-width: 280px;
-  width: calc(25% - 20px); 
-  aspect-ratio: 1 / 1;
+  flex: 1 1 280px; // Each box takes up to 280px width
+  max-width: 280px;
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
@@ -28,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 320px; // Optional: keeps boxes visually balanced
+  min-height: 223px; // Optional: keeps boxes visually balanced
 }
 
 .boxContainer img {
@@ -51,9 +49,8 @@
 /* Responsive: 2 columns on tablets */
 @media (max-width: 768px) {
   .boxContainer {
-    // flex: 1 1 45%;
-    // max-width: 45%;
-    width: calc(50% - 20px);
+    flex: 1 1 45%;
+    max-width: 45%;
   }
 }
 
