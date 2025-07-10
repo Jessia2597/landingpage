@@ -2,37 +2,33 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 24px;
+  padding: 24px;
   box-sizing: border-box;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow-x: hidden; // prevents horizontal scrolling
+  overflow-x: hidden;
 }
 
 .boxContainer {
-  flex: 1 1 260px;
-  max-width: 260px;
-  box-sizing: border-box;
-  padding: 16px;
-  text-align: center;
-  border: 1px solid #ddd;
+  width: 260px;              // fixed equal width
+  height: 320px;             // fixed equal height
+  padding: 20px;
   border-radius: 16px;
-  background: #ffffff;
+  background-color: white;
+  text-align: center;
   text-decoration: none;
   color: inherit;
-
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 
-  // Removed: min-height
-  // Keeps height flexible to content
+  // Optional box shadow
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .boxContainer img {
-  width: 100%;
+  max-width: 100px;
   max-height: 100px;
   object-fit: contain;
   margin-bottom: 12px;
@@ -45,20 +41,19 @@
   color: #d140f6;
   margin: 0;
   text-align: center;
+  word-wrap: break-word;
 }
 
-/* Tablets */
+/* Tablet layout */
 @media (max-width: 768px) {
   .boxContainer {
-    flex: 1 1 45%;
-    max-width: 45%;
+    width: 45%; // two per row
   }
 }
 
-/* Phones */
+/* Phone layout */
 @media (max-width: 480px) {
   .boxContainer {
-    flex: 1 1 100%;
-    max-width: 100%;
+    width: 100%; // one per row
   }
 }
