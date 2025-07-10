@@ -2,36 +2,38 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
-  padding: 24px;
+  gap: 20px;
+  padding: 20px;
   box-sizing: border-box;
-  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; // Prevent horizontal scroll
 }
 
 .boxContainer {
-  width: 260px;              // fixed equal width
-  height: 320px;             // fixed equal height
+  flex: 1 1 280px; // Each box takes up to 280px width
+  max-width: 280px;
+  box-sizing: border-box;
   padding: 20px;
-  border-radius: 16px;
-  background-color: white;
   text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  background: #ffffff;
+  transition: box-shadow 0.3s;
   text-decoration: none;
   color: inherit;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
-  // Optional box shadow
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  min-height: 320px; // Optional: keeps boxes visually balanced
 }
 
 .boxContainer img {
-  max-width: 100px;
+  width: 100%;
   max-height: 100px;
   object-fit: contain;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .boxContainer h3 {
@@ -41,19 +43,21 @@
   color: #d140f6;
   margin: 0;
   text-align: center;
-  word-wrap: break-word;
+  word-break: break-word;
 }
 
-/* Tablet layout */
+/* Responsive: 2 columns on tablets */
 @media (max-width: 768px) {
   .boxContainer {
-    width: 45%; // two per row
+    flex: 1 1 45%;
+    max-width: 45%;
   }
 }
 
-/* Phone layout */
+/* Responsive: Full width on phones */
 @media (max-width: 480px) {
   .boxContainer {
-    width: 100%; // one per row
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
