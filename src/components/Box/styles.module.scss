@@ -3,49 +3,50 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin: 20px auto;
-  padding: 0 16px;
-  max-width: 1200px;
+  padding: 20px;
   box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; // Prevent horizontal scroll
 }
 
 .boxContainer {
-  flex: 1 1 240px;
-  max-width: 240px;
-  height: 300px; // Fixed height to equalize all boxes
+  flex: 1 1 280px; // Each box takes up to 280px width
+  max-width: 280px;
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 16px;
+  background: #ffffff;
   transition: box-shadow 0.3s;
   text-decoration: none;
   color: inherit;
-  background: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
+  min-height: 320px; // Optional: keeps boxes visually balanced
 }
 
 .boxContainer img {
   width: 100%;
-  height: auto;
   max-height: 100px;
   object-fit: contain;
   margin-bottom: 16px;
 }
 
 .boxContainer h3 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.4;
   color: #d140f6;
   margin: 0;
   text-align: center;
+  word-break: break-word;
 }
 
-/* Responsive Enhancements */
+/* Responsive: 2 columns on tablets */
 @media (max-width: 768px) {
   .boxContainer {
     flex: 1 1 45%;
@@ -53,6 +54,7 @@
   }
 }
 
+/* Responsive: Full width on phones */
 @media (max-width: 480px) {
   .boxContainer {
     flex: 1 1 100%;
