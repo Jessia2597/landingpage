@@ -7,33 +7,35 @@
   box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
-  overflow: hidden; // Prevent horizontal scroll
+  overflow-x: hidden; // prevents horizontal scrolling
 }
 
 .boxContainer {
-  flex: 1 1 280px; // Each box takes up to 280px width
-  max-width: 280px;
+  flex: 1 1 260px;
+  max-width: 260px;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 16px;
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 16px;
   background: #ffffff;
-  transition: box-shadow 0.3s;
   text-decoration: none;
   color: inherit;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 320px; // Optional: keeps boxes visually balanced
+
+  // Removed: min-height
+  // Keeps height flexible to content
 }
 
 .boxContainer img {
   width: 100%;
   max-height: 100px;
   object-fit: contain;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .boxContainer h3 {
@@ -43,10 +45,9 @@
   color: #d140f6;
   margin: 0;
   text-align: center;
-  word-break: break-word;
 }
 
-/* Responsive: 2 columns on tablets */
+/* Tablets */
 @media (max-width: 768px) {
   .boxContainer {
     flex: 1 1 45%;
@@ -54,7 +55,7 @@
   }
 }
 
-/* Responsive: Full width on phones */
+/* Phones */
 @media (max-width: 480px) {
   .boxContainer {
     flex: 1 1 100%;
