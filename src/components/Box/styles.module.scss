@@ -13,6 +13,7 @@
 .boxContainer {
   flex: 1 1 280px; // Each box takes up to 280px width
   max-width: 280px;
+  aspect-ratio: 1 / 1;
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
