@@ -3,6 +3,8 @@ sidebar_position: 4
 title: Orchestration & Monitoring
 ---
 
+import Box from '@site/src/components/Box';
+
 Orchestration and Monitoring services are vital for managing complex ecosystems, ensuring seamless and compliant operations. The distinction lies in their focus and functionality: ORCE (Orchestration Engine) is tailored for orchestrating tasks, particularly emphasizing complex application networking, while ORC (Orchestration) is specifically designed for managing the life cycle of infrastructure services, including deployment, updates, and deletion based on actions from consumers or providers. Additionally, the Continuous Automated Monitoring (CAM) service ensures transparency through automated compliance monitoring, providing insights into service adherence to Federation rules.
 
 - Orchestration Engine (ORCE)
@@ -21,27 +23,29 @@ ORC function is to manage services selected or created in the Portal by a Partic
 
 The "Continuous Automated Monitoring" service provides participants with transparency regarding the compliance status of individual service offerings within the Federated Catalogue. It continuously gathers, evaluates, and visualises compliance-relevant information about services, offering participants insights into the adherence of these offerings to specific requirements and rules set by a Federation.
 
+{/*
 export const Box = ({ name, img, href }) => (
   <a class="box-container" href={href}>
     <img src={img} />
     <h3>{name}</h3>
   </a>
 );
+*/}
 
 <div class="img-container">
   <Box
     name="Orchestration Engine (ORCE)"
-    img="static/img/service_3.png"
-    href="/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/orchestration-engine"
+    img="/landingpage/img/service_3.png"
+    href="/landingpage/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/orchestration-engine"
   />
   <Box
     name="Service Mesh Automation (Orchestration, ORC)"
-    img="/img/service_3.png"
-    href="/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/service-mash"
+    img="/landingpage/img/service_3.png"
+    href="/landingpage/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/service-mash"
   />
   <Box
     name="Continuous Automated Monitoring (CAM)"
-    img="/img/monitoring.png"
-    href="/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/continuous-automated"
+    img="/landingpage/img/monitoring.png"
+    href="/landingpage/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/continuous-automated"
   />
 </div>
