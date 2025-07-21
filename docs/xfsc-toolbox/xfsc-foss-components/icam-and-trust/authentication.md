@@ -12,5 +12,5 @@ At the core of this enablement stays integration and assurance of compatibility 
 The overall scope of the service functions enables – by application of supporting SSI shell components, such as SSI OIDC Provider and SSI IAT Provider – to employ any OAuth2/OIDC standards-based local IAM solution for decentralized authentication and authorization within Gaia-X ecosystem. The components integrate with the other elements of the Identity & Trust Work Package, e.g., “Trust Services API” and “Personal Credential Manager” (these services are being awarded in separate tenders) in order to fulfill their full scope of function.
 
 <div class="mt-5">
-<a href="https://gitlab.eclipse.org/eclipse/xfsc/authenticationauthorization" target="_blank" class="primaryBtn">Repository</a>
+<a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

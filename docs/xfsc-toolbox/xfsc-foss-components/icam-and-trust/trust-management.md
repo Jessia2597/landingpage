@@ -16,5 +16,5 @@ This is achieved through the introduction of trust lists combined with anchoring
 Please note that the libraries are intentional for different languages such as GO, Java, Python and JavaScript. It’s also intentional to create the libraries as helpers for using the extended universal resolver, by adding content resolver steps, validation routines for VC and other assistive functionalities. 
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/train" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

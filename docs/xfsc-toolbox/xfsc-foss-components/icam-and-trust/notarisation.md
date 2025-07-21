@@ -33,5 +33,5 @@ The scope is to extend the existing component “Notarization API”, with the f
 The product extension will also include interfaces (API’s) to integrate the notarization component smoothly in external software for Non-IT operator usage (e.g., lawyers, notaries, governments, certifiers …).
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/notarization-service" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

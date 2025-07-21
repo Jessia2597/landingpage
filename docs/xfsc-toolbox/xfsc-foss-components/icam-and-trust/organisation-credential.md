@@ -32,7 +32,7 @@ The purpose of this extension is to provide changes to the OCM components to enh
   - Configuration of Endpoint Mappings to internal/external functionality
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/ocm" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>
 
 ### OCM W-Stack
@@ -55,5 +55,5 @@ The purpose of the OCM W-Stack is to provide all necessary components for the ex
 Same as the OCM the OCM W-Stack prioritize W3C compatibility, but technologically the OCM W-Stack will be a non-Indy implementation to become independent of Hyperledger Indy and maximize interoperability.
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/organisational-credential-manager-w-stack" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

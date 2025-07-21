@@ -30,5 +30,5 @@ The main updates/extensions are:
 - JSON schema validation is added 
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/tsa" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

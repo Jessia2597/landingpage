@@ -23,7 +23,7 @@ The purpose of the PCM is to provide all necessary components for the self-sover
 - Furthermore, the scope includes the provision of the developed software in a usable format for end users including the respective distribution channels (e.g., App Stores). 
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/pcm" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>
 
 ### PCM Cloud
@@ -41,5 +41,5 @@ We are also introducing a PCM that can be interacted with by computer browser, t
 The PCM Cloud is designed as a cloud-based component offering a user-friendly web interface for managing OCM, OCM W-Stack, and TSA. It serves as an integration layer, facilitating various Holder use cases. The PCM Cloud orchestrates these use cases through plugins, such as the “ID Card Proof Plugin,” enabling functions like automatic ID card verification.
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/personal-credential-manager-cloud" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

@@ -10,5 +10,5 @@ From a functional perspective, the Data Contract Service provides a formal data 
 The Data Contract Service provides endpoints for initiating the handshake and retrieving the contract for later reference. It provides log tokens to Data Provider and Data Consumer (except when logging is forbidden) to authorize metadata logging at the Logging Service (the Logging Service is being awarded in a separate tender). 
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/dct" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>

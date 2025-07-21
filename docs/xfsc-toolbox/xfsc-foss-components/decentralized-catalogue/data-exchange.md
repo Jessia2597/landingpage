@@ -10,5 +10,5 @@ Additionally, the data consumer can track and provide evidence on the enforcemen
 From a functional perspective, the DELS provides an interface to track logging notifications and to read the logging messages afterward. The logging mechanism is specified in accordance with W3C linked data notifications. 
 
 <div class="mtp-3">
-    <a href="https://gitlab.eclipse.org/eclipse/xfsc/del" target="_blank" class="primaryBtn">Repository</a>
+    <a href="https://github.com/eclipse-xfsc/org.eclipse.xfsc" target="_blank" class="primaryBtn">Repository</a>
 </div>
