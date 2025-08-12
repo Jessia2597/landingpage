@@ -64,9 +64,9 @@ const CommunityComp = () => {
               <a href="mailto:info@gxfs.de" target="_blank">
                 info@gxfs.de
               </a>{" "}
-              or reach out to the project lead, Lauresha Memeti, at{" "}
-              <a href="mailto:lauresha.memeti@eco.de." target="_blank">
-                lauresha.memeti@eco.de.
+              or reach out to the project lead, Lauresha Toska, at{" "}
+              <a href="mailto:lauresha.toska@eco.de." target="_blank">
+                lauresha.toska@eco.de.
               </a>
             </li>
           </ul>
