@@ -5,7 +5,7 @@ This repository contains an overview of components, resources and source code ne
 It serves as a central hub for contributors, developer, and community members to explore XFSC components and contribution guidelines.
 
 ## Table of Contents
-- [About the Landing Page](#About the Landing Page)
+- [About the Landing Page](#About-the-Landing-Page)
 
 ## 1. About the Landing Page
 The XFSC website serve as an entry point for the contributors and users of the XFSC Eclipse project. It is designed to provide clear and structured information for anyone who wants to learn about XFSC, its components and gets involved.
