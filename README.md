@@ -8,7 +8,6 @@ It serves as a central hub for contributors, developer, and community members to
 - [About the Landing Page](#About-the-Landing-Page)
 - [Repository Branch Structure](#repository-branch-structure)
 - [XFSC Components](#xfsc-components)
-- 
 - [How to Contribute](#how-to-contribute)
 - [Community & Support](#community-support)
 - [Useful Links](#useful-links)
@@ -45,7 +44,7 @@ This enables **self-sovereign identity management** with credential validation a
 | **Sub-Repository** | **Purpose** | **Link** |
 |---------------------|------------|----------|
 | **aries-integration-tests** | Integration tests for Organizational Credential Manager on behave basis (Hyperledger/Credo) | [GitHub](https://github.com/eclipse-xfsc/aries-integration-tests) |
-| **aries-ssi-agent** | A wrapper around the Credo library (Credo), formerly known as Aries Framework Javascript, an implementation of a Hyperledger Indy Agent in TypeScript | [GitHub] (https://github.com/eclipse-xfsc/aries-ssi-agent) |
+| **aries-ssi-agent** | A wrapper around the Credo library (Credo), formerly known as Aries Framework Javascript, an implementation of a Hyperledger Indy Agent in TypeScript | [GitHub](https://github.com/eclipse-xfsc/aries-ssi-agent) |
 
 ---
 
@@ -55,5 +54,8 @@ This enables **self-sovereign identity management** with credential validation a
 | **crypto-provider-service** | provides REST APIs for creating Verifiable Credentials (VC) and Verifiable Presentations (VP) in the W3C credential format. It also provides more generic endpoints for signing arbitrary data, for adding cryptographic proofs to existing VC/VP and for fetching public keys necessary for signature verification. | [GitHub](https://github.com/eclipse-xfsc/crypto-provider-service) |
 | **custom-policy-agent** | The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [GitHub](https://github.com/eclipse-xfsc/custom-policy-agent) |
 | **redis-cache-service** | [The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [GitHub](https://github.com/eclipse-xfsc/redis-cache-service) |
+
+---
+
 ##License
 This project is licensed under Apache 2.0 License.
