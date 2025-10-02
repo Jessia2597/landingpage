@@ -102,5 +102,7 @@ The XFSC Portal acts as an integration layer, offering user-friendly access to f
 | **portal-self-description-management** | portal to provision services and management| [https://github.com/eclipse-xfsc/portal-onboarding-service](https://github.com/eclipse-xfsc/portal-onboarding-service) |
 | **portal-self-description-service** | portal to provision services | [https://github.com/eclipse-xfsc/portal-onboarding-service](https://github.com/eclipse-xfsc/portal-onboarding-service) |
 
-##License
+---
+
+### *License*
 This project is licensed under Apache 2.0 License.
