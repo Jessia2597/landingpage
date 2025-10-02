@@ -5,12 +5,11 @@ This repository contains an overview of components, resources and source code ne
 It serves as a central hub for contributors, developer, and community members to explore XFSC components and contribution guidelines.
 
 ## Table of Contents
-- [About the Landing Page](#About-the-Landing-Page)
+- [About the Landing Page](#about-the-landing-page)
 - [Repository Branch Structure](#repository-branch-structure)
 - [XFSC Components](#xfsc-components)
 - [How to Contribute](#how-to-contribute)
-- [Community & Support](#community-support)
-- [Useful Links](#useful-links)
+- [Community & Support](#community--support)
 - [License](#license)
 
 ## 1. About the Landing Page
@@ -104,5 +103,15 @@ The XFSC Portal acts as an integration layer, offering user-friendly access to f
 
 ---
 
-### *License*
+## 4. How to Contribute
+Contribution guidelines are available directly on the [XFSC Landing Page](https://eclipse-xfsc.github.io/landingpage/developer-guide/).
+
+---
+
+## 5. Community & Support
+For community discussions, onboarding, and support, please visit the [XFSC Landing Page](https://eclipse-xfsc.github.io/landingpage/community).
+
+---
+
+## 6. License
 This project is licensed under Apache 2.0 License.
