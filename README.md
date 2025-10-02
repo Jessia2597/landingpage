@@ -5,7 +5,7 @@ This repository contains an overview of components, resources and source code ne
 It serves as a central hub for contributors, developer, and community members to explore XFSC components and contribution guidelines.
 
 ## Table of Contents
-- [About the Landing Page](#about-the-landing-page)
+- [About the Landing Page](#1.-about-the-landing-page)
 - [Repository Branch Structure](#repository-branch-structure)
 - [XFSC Components](#xfsc-components)
 - [How to Contribute](#how-to-contribute)
