@@ -6,11 +6,11 @@ It serves as a central hub for contributors, developer, and community members to
 
 ## Table of Contents
 - [About the Landing Page](#1-about-the-landing-page)
-- [Repository Branch Structure](#repository-branch-structure)
-- [XFSC Components](#xfsc-components)
-- [How to Contribute](#how-to-contribute)
-- [Community & Support](#community--support)
-- [License](#license)
+- [Repository Branch Structure](#2-repository-branch-structure)
+- [XFSC Components](#3-xfsc-components)
+- [How to Contribute](#4-how-to-contribute)
+- [Community & Support](#5-community--support)
+- [License](#6-license)
 
 ## 1. About the Landing Page
 The XFSC website serve as an entry point for the contributors and users of the XFSC Eclipse project. It is designed to provide clear and structured information for anyone who wants to learn about XFSC, its components and gets involved.
