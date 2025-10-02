@@ -21,6 +21,7 @@ For a detailed explanation of XFSC and its components, visit the official websit
 ## 2. Repository Branch Structure
 | Branch Name | Purpose | Contains | When to Use |
 |-------------|---------|----------|-------------|
+|facis | Landing Page for the FACIS project | links to all sub components |
 | gh-pages | Handles deployment and workflow automation | - Github Actions workflow (` .github/workflows/`)<br>- Static assets required for deployment | You don't edit docs here. This branch is updated automatically when the workflow runs. |
 | pageBuilder | contains the actual landgin page content | - Markdown files for Landing page website<br>- `docusaurus.config.js` for site setup<br><br>- Images used on the site| Use this branch to **add, edit, or update documentation**. After pushing changes, the workflow builds files in `gh-pages` and deploys automatically. |
 
@@ -31,31 +32,75 @@ This section highlights the main XFSC components/ Framework and links to their r
 This enables **self-sovereign identity management** with credential validation and trust services.
 | **Service** | **Repository Links** |
 |------------|----------------------|
-| **Authentication / Authorization Service (AAS)** |  [Github Repo](https://github.com/eclipse-xfsc/aas)
-| **Organisation Credential Manager (OCM)** | [Github Repo](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
-| **Personal Credential Manager (PCM)** | [Github Repo](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
-| **Trust Services API (TSA)** | [Github Repo](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
-| **Notarisation Service (NOT)** | [Github Repo](https://github.com/eclipse-xfsc/notarization-service) 
-| **Trust Management Infrastructure (TRAIN)** | [Github Repo](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
+| **Authentication / Authorization Service (AAS)** |  [https://github.com/eclipse-xfsc/aas](https://github.com/eclipse-xfsc/aas)
+| **Organisation Credential Manager (OCM)** | [https://github.com/eclipse-xfsc/org.eclipse.xfsc](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
+| **Personal Credential Manager (PCM)** | [https://github.com/eclipse-xfsc/org.eclipse.xfsc](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
+| **Trust Services API (TSA)** | [https://github.com/eclipse-xfsc/org.eclipse.xfsc](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
+| **Notarisation Service (NOT)** | [https://github.com/eclipse-xfsc/notarization-service](https://github.com/eclipse-xfsc/notarization-service) 
+| **Trust Management Infrastructure (TRAIN)** | [https://github.com/eclipse-xfsc/org.eclipse.xfsc](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)*
 
 ---
 
 ### **Organisation Credential Manager (OCM) – Sub-Repositories**
 | **Sub-Repository** | **Purpose** | **Link** |
 |---------------------|------------|----------|
-| **aries-integration-tests** | Integration tests for Organizational Credential Manager on behave basis (Hyperledger/Credo) | [GitHub](https://github.com/eclipse-xfsc/aries-integration-tests) |
-| **aries-ssi-agent** | A wrapper around the Credo library (Credo), formerly known as Aries Framework Javascript, an implementation of a Hyperledger Indy Agent in TypeScript | [GitHub](https://github.com/eclipse-xfsc/aries-ssi-agent) |
+| **aries-integration-tests** | Integration tests for Organizational Credential Manager on behave basis (Hyperledger/Credo) | [https://github.com/eclipse-xfsc/aries-integration-tests](https://github.com/eclipse-xfsc/aries-integration-tests) |
+| **aries-ssi-agent** | A wrapper around the Credo library (Credo), formerly known as Aries Framework Javascript, an implementation of a Hyperledger Indy Agent in TypeScript | [https://github.com/eclipse-xfsc/aries-ssi-agent](https://github.com/eclipse-xfsc/aries-ssi-agent) |
 
 ---
 
 ### **Trust Service API (TSA)**
 | **Sub-Repository** | **Purpose** | **Link** |
 |---------------------|------------|----------|
-| **crypto-provider-service** | provides REST APIs for creating Verifiable Credentials (VC) and Verifiable Presentations (VP) in the W3C credential format. It also provides more generic endpoints for signing arbitrary data, for adding cryptographic proofs to existing VC/VP and for fetching public keys necessary for signature verification. | [GitHub](https://github.com/eclipse-xfsc/crypto-provider-service) |
-| **custom-policy-agent** | The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [GitHub](https://github.com/eclipse-xfsc/custom-policy-agent) |
-| **redis-cache-service** | [The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [GitHub](https://github.com/eclipse-xfsc/redis-cache-service) |
+| **crypto-provider-service** | provides REST APIs for creating Verifiable Credentials (VC) and Verifiable Presentations (VP) in the W3C credential format. It also provides more generic endpoints for signing arbitrary data, for adding cryptographic proofs to existing VC/VP and for fetching public keys necessary for signature verification. | [https://github.com/eclipse-xfsc/crypto-provider-service](https://github.com/eclipse-xfsc/crypto-provider-service) |
+| **custom-policy-agent** | The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [https://github.com/eclipse-xfsc/custom-policy-agent](https://github.com/eclipse-xfsc/custom-policy-agent) |
+| **redis-cache-service** | [The policy service provides REST API to evaluate/execute OPA policies written in the Rego language. | [https://github.com/eclipse-xfsc/redis-cache-service ](https://github.com/eclipse-xfsc/redis-cache-service) |
 
 ---
+
+### **Decentralized Catalogue and Contracting Service (CCS)** 
+The service enables participants to share, discover, and control data within a federation through decentralized catalogues, self-descriptions, and tools for contract management and transaction tracking.
+
+| **Service** | **Repository Links** |
+|------------|----------------------|
+| **Federated Catalogue(CAT)** | [https://github.com/eclipse-xfsc/federated-catalogue](https://github.com/eclipse-xfsc/federated-catalogue) |
+| **Self-Description Wizard (SD-Wizard)** |  [https://github.com/eclipse-xfsc/org.eclipse.xfsc](https://github.com/eclipse-xfsc/org.eclipse.xfsc) *(See sub-repositories below)* |
+| **Data Contract Services (DCS)** | [https://github.com/eclipse-xfsc/data-contract-transaction](https://github.com/eclipse-xfsc/data-contract-transaction) |
+| **Data Exchange Logging Service (DEL)** | [https://github.com/eclipse-xfsc/data-exchange-logging](https://github.com/eclipse-xfsc/data-exchange-logging) |
+
+---
+
+### **Self-Description Wizard (SD-Wizard) – Sub-Repositories**
+| **Sub-Repository** | **Purpose** | **Link** |
+|---------------------|------------|----------|
+| **sd-creation-wizard-api** | Backend service to convert an input shacl shape into JSON form for the frontend service. | [https://github.com/eclipse-xfsc/sd-creation-wizard-api](https://github.com/eclipse-xfsc/sd-creation-wizard-api) |
+| **sd-creation-wizard-frontend** | Frontend service developed to assist in creating GAia-X-Self-Descriptions based on Ontologies and SHACL shapes. | [https://github.com/eclipse-xfsc/sd-creation-wizard-frontend](https://github.com/eclipse-xfsc/sd-creation-wizard-frontend) |
+| **sd-schemas** | contains schema and documentation for developing compliant Gaia-X Credentials | [https://github.com/eclipse-xfsc/sd-schemas](https://github.com/eclipse-xfsc/sd-schemas) |
+| **sd-validation-api** | contains validation api files | [https://github.com/eclipse-xfsc/sd-validation-api](https://github.com/eclipse-xfsc/sd-validation-api) |
+
+---
+
+### **Orchestration & Monitoring** 
+Orchestration and Monitoring services manage complex ecosystems: ORCE handles task and application networking, ORC (Orchestration) manages infrastructure life cycles, and Continuous Automated Monitoring (CAM) ensures automated compliance and provide insights into service adherence to Federation rules.
+
+| **Service** | **Repository Links** |
+|------------|----------------------|
+| **Orchestration Engine (ORCE)** |  [https://github.com/eclipse-xfsc/orchestration-engine](https://github.com/eclipse-xfsc/orchestration-engine) |
+| **Service Mesh Automation (Orchestration, ORC)** |  [https://github.com/eclipse-xfsc/orchestrators](https://github.com/eclipse-xfsc/orchestrators) |
+| **Continuous Automated Monitoring (CAM)** | [https://github.com/eclipse-xfsc/cam](https://github.com/eclipse-xfsc/cam) |
+
+---
+
+### **Portal** 
+The XFSC Portal acts as an integration layer, offering user-friendly access to federation services like onboarding, accreditation, service discovery, and orchestration. It enables participants to register, gain verified credentials, and manage services through the Federated Catalogue.
+
+| **Services** | **Purpose** | **Link** |
+|---------------------|------------|----------|
+| **portal-federated-catalogue-management** | Display content from Federated Catalogue | [https://github.com/eclipse-xfsc/portal-federated-catalogue-management](https://github.com/eclipse-xfsc/portal-federated-catalogue-management) |
+| **portal-integration** | user-friendly access to orchestration | [https://github.com/eclipse-xfsc/portal-integration](https://github.com/eclipse-xfsc/portal-integration) |
+| **portal-onboarding-service** | Portal to register and onboard new participants | [https://github.com/eclipse-xfsc/portal-onboarding-service](https://github.com/eclipse-xfsc/portal-onboarding-service) |
+| **portal-self-description-management** | portal to provision services and management| [https://github.com/eclipse-xfsc/portal-onboarding-service](https://github.com/eclipse-xfsc/portal-onboarding-service) |
+| **portal-self-description-service** | portal to provision services | [https://github.com/eclipse-xfsc/portal-onboarding-service](https://github.com/eclipse-xfsc/portal-onboarding-service) |
 
 ##License
 This project is licensed under Apache 2.0 License.
